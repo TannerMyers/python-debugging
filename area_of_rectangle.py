@@ -45,9 +45,9 @@ if __name__ == '__main__':
                 "rectangle".format(script_name = sys.argv[0]))
         sys.exit(message)
     height = sys.argv[1]
-    width = height
-    if len(sys.argv) > 3:
-        width = sys.argv[1]
+    width = sys.argv[2]
+ #   if len(sys.argv) > 3:
+ #       width = sys.argv[1]
 
     area = area_of_rectangle(height, width)
 
