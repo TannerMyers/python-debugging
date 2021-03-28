@@ -4,7 +4,6 @@
 
 import sys
 
-
 def area_of_rectangle(height, width = None):
     """
     Returns the area of a rectangle.
@@ -46,8 +45,8 @@ if __name__ == '__main__':
         sys.exit(message)
     height = sys.argv[1]
     width = sys.argv[2]
- #   if len(sys.argv) > 3:
- #       width = sys.argv[1]
+    if len(sys.argv) > 3:
+        width = sys.argv[1]
 
     area = area_of_rectangle(height, width)
 
